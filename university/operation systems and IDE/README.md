@@ -1,5 +1,7 @@
 # Конспекты по осям
 
+[<- Назад (университет)](https://github.com/boorlakov/zettelkasten/blob/main/university/README.md)
+
 - [Файловые системы](https://github.com/boorlakov/zettelkasten/blob/main/university/operation%20systems%20and%20IDE/filesystems.md)
 - `shell`
   - [Общие сведения](https://github.com/boorlakov/zettelkasten/blob/main/university/operation%20systems%20and%20IDE/shell%20script%20conspects/overview/overview.md)
