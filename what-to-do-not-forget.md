@@ -1,5 +1,7 @@
 # О чем надо не забыть?
 
+[<- Назад (главная)](https://github.com/boorlakov/zettelkasten/blob/main/README.md)
+
 ## 1. Работа
 
 ### 1.1. Люди
