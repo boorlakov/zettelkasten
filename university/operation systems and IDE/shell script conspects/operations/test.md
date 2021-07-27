@@ -1,5 +1,7 @@
 # `test`
 
+[<- Назад (конспекты по осям)](https://github.com/boorlakov/zettelkasten/blob/main/university/operation%20systems%20and%20IDE/README.md)
+
 ## About
 
 ### Оператор `test` проверяет выполнение условия и возвращает `истина` (`0`) или `ложь` (`1`)

@@ -1,5 +1,7 @@
 # Methods of sending data to `shell`
 
+[<- Назад (конспекты по осям)](https://github.com/boorlakov/zettelkasten/blob/main/university/operation%20systems%20and%20IDE/README.md)
+
 ## About
 
 ## Возможны два способа передачи данных в сценарий

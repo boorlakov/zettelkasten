@@ -1,5 +1,7 @@
 # Глобальные переменные в `shell script`
 
+[<- Назад (конспекты по осям)](https://github.com/boorlakov/zettelkasten/blob/main/university/operation%20systems%20and%20IDE/README.md)
+
 ## Каждая программа на `shell` всегда имеет **минимальный** набор **глобальных** переменных
 
 |  **Переменная** | **Значение** |

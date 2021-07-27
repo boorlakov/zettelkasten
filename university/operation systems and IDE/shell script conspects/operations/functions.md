@@ -1,5 +1,7 @@
 # Использование функций в сценариях
 
+[<- Назад (конспекты по осям)](https://github.com/boorlakov/zettelkasten/blob/main/university/operation%20systems%20and%20IDE/README.md)
+
 ## About
 
 Функции Shell описываются следующим образом

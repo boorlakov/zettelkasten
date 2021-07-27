@@ -1,5 +1,7 @@
 # `if`
 
+[<- Назад (конспекты по осям)](https://github.com/boorlakov/zettelkasten/blob/main/university/operation%20systems%20and%20IDE/README.md)
+
 ## About
 
 Условный оператор `if` имеет следующий формат

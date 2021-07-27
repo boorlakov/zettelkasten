@@ -1,5 +1,7 @@
 # `case`
 
+[<- Назад (конспекты по осям)](https://github.com/boorlakov/zettelkasten/blob/main/university/operation%20systems%20and%20IDE/README.md)
+
 ## About
 
 Оператор множественного выбора `case` имеет следующий формат:

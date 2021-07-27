@@ -1,5 +1,7 @@
 # `for`
 
+[<- Назад (конспекты по осям)](https://github.com/boorlakov/zettelkasten/blob/main/university/operation%20systems%20and%20IDE/README.md)
+
 ## About
 
 Оператор предопределенного цикла for имеет следующий формат

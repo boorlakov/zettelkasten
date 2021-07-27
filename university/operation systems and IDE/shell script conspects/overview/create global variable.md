@@ -1,5 +1,7 @@
 # Create global variable
 
+[<- Назад (конспекты по осям)](https://github.com/boorlakov/zettelkasten/blob/main/university/operation%20systems%20and%20IDE/README.md)
+
 ## About
 
 ### Для того, чтобы  переменная стала глобальной и к ней можно было обращаться из дочерних процессов, ее следует экспортировать командой `export`
