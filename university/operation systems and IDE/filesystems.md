@@ -1,5 +1,7 @@
 # Файловые системы
 
+[<- Назад (конспекты по осям)](https://github.com/boorlakov/zettelkasten/blob/main/university/operation%20systems%20and%20IDE/README.md)
+
 ## Внешняя память делится на
 
 - ### Устройство внешней памяти
