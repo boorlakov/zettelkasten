@@ -1,5 +1,7 @@
 # Основы работы с Microsoft MPI
 
+[<- Назад (Методы построения и анализа алгоритмов)](https://github.com/boorlakov/zettelkasten/blob/main/university/methods%20analysis%20algos/README.md)
+
 ## About
 
 Одним из наиболее распространенных технологий программирования в системах с распределенной памятью является использование интерфейса передачи сообщений **`Message Passing Interface`** – **`MPI`**.

@@ -1,5 +1,7 @@
 # Инициализация среды `MPI`
 
+[<- Назад (Методы построения и анализа алгоритмов)](https://github.com/boorlakov/zettelkasten/blob/main/university/methods%20analysis%20algos/README.md)
+
 ## About
 
 1. Для использования `MPI` в среде разработки `MS Visual Studio` необходимо в настройках проекта указать путь к заголовочным файлам:
