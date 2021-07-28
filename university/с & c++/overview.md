@@ -2,7 +2,7 @@
 
 TO-DO:- add links [from](http://sorokin.github.io/cpp-course/#cite_note_1)
 
-[<- Назад (университет)](https://github.com/boorlakov/zettelkasten/blob/main/university/README.md)
+[<- Назад (C++ от Сорокина)](https://github.com/boorlakov/zettelkasten/blob/main/university/с%20%26%20c%2B%2B/README.md)
 
 ## Лекции [раз](https://www.youtube.com/playlist?list=PLd7QXkfmSY7ZESrq5BWw4xJrG5CeTkRwJ), [два](https://www.youtube.com/playlist?list=PLd7QXkfmSY7YsYNecuoJLsurtqsMNyhNF)
 
