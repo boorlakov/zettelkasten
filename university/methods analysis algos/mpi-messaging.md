@@ -7,7 +7,12 @@
 В библиотеке `MPI` имеется большое множество функций для управления передачей данных. Мы рассмотрим лишь основные функции.
 
 ```c
-int MPI_Send(void* buf, int count, MPI_Datatype type, int dest, int tag, MPI_Comm comm);
+int MPI_Send(void* buf, 
+             int count,
+             MPI_Datatype type,
+             int dest,
+             int tag,
+             MPI_Comm comm);
 ```
 
 `buf` - адрес передаваемого буфера с данными
