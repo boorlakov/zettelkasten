@@ -1,4 +1,4 @@
-# Основы работы с Microsoft MPI
+# Основы работы с Microsoft `MPI`
 
 [<- Назад (Методы построения и анализа алгоритмов)](https://github.com/boorlakov/zettelkasten/blob/main/university/methods%20analysis%20algos/README.md)
 
