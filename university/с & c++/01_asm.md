@@ -1,5 +1,7 @@
 # Введение в ассемблер
 
+[<- Назад (C++ от Сорокина)](https://github.com/boorlakov/zettelkasten/blob/main/university/с%20%26%20c%2B%2B/README.md)
+
 - [Запись лекции №1](https://www.youtube.com/watch?v=bTgtesThdSg)
 - [Запись лекции №2](https://www.youtube.com/watch?v=XY8xN1Ug1_k)
 
