@@ -13,7 +13,7 @@
 - **8-битные регистры** (тоже 8): `AL, AH, BL, BH, CL, CH, DL, DH. AL + AH = AX`, аналогично другие.
 - **32-битные регистры:** `EAX`, и другие обычные с приставкой `E` - `extended`
 
-![Memory Cell](zettelkasten/images/02.08_memory_cell.png)
+![Memory Cell](https://github.com/boorlakov/zettelkasten/blob/main/images/02.08_memory_cell.png)
 
 ### Команды read, write
 
@@ -220,7 +220,7 @@ unsigned foo(unsigned a) // беззнаковый тип
 
 Флаги для `cmp a,b`:
 
-![Flags scheme](zettelkasten/images/02.08_flags.png)
+![Flags scheme](https://github.com/boorlakov/zettelkasten/blob/main/images/02.08_flags.png)
 
 Многие команды расставляют флаги, выполняя операцию:
 
