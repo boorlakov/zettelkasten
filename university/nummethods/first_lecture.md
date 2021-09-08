@@ -1,6 +1,7 @@
 # Лекция 1
 
 [<- Назад (Численные методы)](https://github.com/boorlakov/zettelkasten/blob/main/university/nummethods/README.md)
+
 [LatexToHTML](https://www.codecogs.com/latex/eqneditor.php)
 
 ## Литература
