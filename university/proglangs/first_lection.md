@@ -1,5 +1,7 @@
 # Лекция 1
 
+[<- Назад (Языки программирования и методы трансляции)](https://github.com/boorlakov/zettelkasten/blob/main/university/proglangs/README.md)
+
 ## Список литературы
 
 ### Windows
