@@ -1,5 +1,8 @@
 # Лекция 1
 
+[<- Назад (Численные методы)](https://github.com/boorlakov/zettelkasten/blob/main/university/nummethods/README.md)
+[LatexToHTML](https://www.codecogs.com/latex/eqneditor.php)
+
 ## Литература
 
 1. Численные методы. Вержбицкий (ЧМ анализа, ЧМ линейной алгебры и объединение книжек)
@@ -7,73 +10,72 @@
 ## Содержание
 
 Что такое итерационные методы — методы, в которых решение идет последовательно, число шагов = точность, каждый следующий элемент после выражается через предыдущий:
-Решая Ax = b
+Решая <a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;\begin{equation}&space;Ax&space;=&space;b&space;\end{equation}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\large&space;\begin{equation}&space;Ax&space;=&space;b&space;\end{equation}" title="\large \begin{equation} Ax = b \end{equation}" /></a>
 
-Не хочется матрицу преобразовать, выглядит это так
+Не хочется матрицу преобразовать, выглядит это так:
 
-X_k+1 = B x_k + c
-
-Самый простой метод
+<a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;\begin{equation}&space;X_{k&plus;1}&space;=&space;Bx_{k}&plus;c&space;\end{equation}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\large&space;\begin{equation}&space;X_{k&plus;1}&space;=&space;Bx_{k}&plus;c&space;\end{equation}" title="\large \begin{equation} X_{k+1} = Bx_{k}+c \end{equation}" /></a>
 
 ### Метод Якоби
 
-Считаем, что A = L + D + U, а считаем, что
-B = - D^-1 (L + U), а c = D^-1 b
+Самый простой метод
+
+Считаем, что <a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;\begin{equation}&space;A&space;=&space;L&space;&plus;&space;D&space;&plus;&space;U&space;\end{equation}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\large&space;\begin{equation}&space;A&space;=&space;L&space;&plus;&space;D&space;&plus;&space;U&space;\end{equation}" title="\large \begin{equation} A = L + D + U \end{equation}" /></a>, и что
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;\begin{equation}&space;B&space;=&space;-&space;D^{-1}&space;(L&space;&plus;&space;U)&space;\end{equation}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\large&space;\begin{equation}&space;B&space;=&space;-&space;D^{-1}&space;(L&space;&plus;&space;U)&space;\end{equation}" title="\large \begin{equation} B = - D^{-1} (L + U) \end{equation}" /></a>, а <a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;\begin{equation}&space;c&space;=&space;D^{-1}&space;b&space;\end{equation}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\large&space;\begin{equation}&space;c&space;=&space;D^{-1}&space;b&space;\end{equation}" title="\large \begin{equation} c = D^{-1} b \end{equation}" /></a>
 
 Решая
 
-[2 1] [1 2]  x = [3][3], где B = [0 -1/2] [-1/2 0]
+<a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;\begin{equation}&space;\bigl(\begin{smallmatrix}&space;2&space;&&space;1\\&space;1&space;&&space;2&space;\end{smallmatrix}\bigr)&space;x=&space;\binom{3}{3}&space;\end{equation}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\large&space;\begin{equation}&space;\bigl(\begin{smallmatrix}&space;2&space;&&space;1\\&space;1&space;&&space;2&space;\end{smallmatrix}\bigr)&space;x=&space;\binom{3}{3}&space;\end{equation}" title="\large \begin{equation} \bigl(\begin{smallmatrix} 2 & 1\\ 1 & 2 \end{smallmatrix}\bigr) x= \binom{3}{3} \end{equation}" /></a>
 
-c = x_k+1 = (3/2),   x_k+2 = (3/4)      x_k+3 = (9/8)
-            (3/2)            (3/4)              (9/8),
+<a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;\begin{equation}&space;c&space;=&space;x_{k&plus;1}&space;=&space;\binom{3/2}{3/2}&space;\end{equation}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\large&space;\begin{equation}&space;c&space;=&space;x_{k&plus;1}&space;=&space;\binom{3/2}{3/2}&space;\end{equation}" title="\large \begin{equation} c = x_{k+1} = \binom{3/2}{3/2} \end{equation}" /></a> ,
+<a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;\begin{equation}&space;x_{k&plus;2}&space;=&space;\binom{3/4}{3/4}&space;\end{equation}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\large&space;\begin{equation}&space;x_{k&plus;2}&space;=&space;\binom{3/4}{3/4}&space;\end{equation}" title="\large \begin{equation} x_{k+2} = \binom{3/4}{3/4} \end{equation}" /></a> ,
+<a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;\begin{equation}&space;x_{k&plus;3}&space;=&space;\binom{9/8}{9/8}&space;\end{equation}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\large&space;\begin{equation}&space;x_{k&plus;3}&space;=&space;\binom{9/8}{9/8}&space;\end{equation}" title="\large \begin{equation} x_{k+3} = \binom{9/8}{9/8} \end{equation}" /></a>
 
 Получаем ответ только в пределе.
 
-У всех методов итерационных есть проблема, что все теоремы не строгие (например, для Якоби условие сходимости только при ||B|| < 1)
+У всех методов итерационных есть проблема, что все теоремы не строгие (например, для Якоби условие сходимости только при <a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;\begin{equation}&space;\left&space;\|&space;B&space;\right&space;\|&space;<&space;1&space;\end{equation}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\large&space;\begin{equation}&space;\left&space;\|&space;B&space;\right&space;\|&space;<&space;1&space;\end{equation}" title="\large \begin{equation} \left \| B \right \| < 1 \end{equation}" /></a>)
 
-Вспомнили про норму матрицы
+Вспомнили про [норму матрицы](https://en.wikipedia.org/wiki/Matrix_norm)
 
 ### Метод Гаусса-Зейделя
 
-```LaTeX
-\begin{bmatrix} 
-a & b & c \\
-c & d & d\\
-e & f & g \\
-\end{bmatrix}
-```
+<a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;\begin{equation}&space;B&space;=&space;-(L&space;&plus;&space;D)^{-1}&space;U&space;\end{equation}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\large&space;\begin{equation}&space;B&space;=&space;-(L&space;&plus;&space;D)^{-1}&space;U&space;\end{equation}" title="\large \begin{equation} B = -(L + D)^{-1} U \end{equation}" /></a>
 
-B = -(L + D)^(-1) U
-c =  (L + D)^(-1) b
+<a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;\begin{equation}&space;c&space;=&space;(L&space;&plus;&space;D)^{-1}&space;b&space;\end{equation}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\large&space;\begin{equation}&space;c&space;=&space;(L&space;&plus;&space;D)^{-1}&space;b&space;\end{equation}" title="\large \begin{equation} c = (L + D)^{-1} b \end{equation}" /></a>
 
-((L + D)^(-1) (U x_k))
+<a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;\begin{equation}&space;(L&space;&plus;&space;D)^{-1}&space;U&space;x_{k}&space;\end{equation}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\large&space;\begin{equation}&space;(L&space;&plus;&space;D)^{-1}&space;U&space;x_{k}&space;\end{equation}" title="\large \begin{equation} (L + D)^{-1} U x_{k} \end{equation}" /></a>
 
-Это модификация метода Якоби
-Как определить класс матриц, где выражение сходится? (Как минимум для всех тех же матриц диагонального преобладания)
+Это модификация метода Якоби!
+Как определить класс матриц, где выражение сходится? 
+
+- Как минимум для всех тех же матриц диагонального преобладания
 
 Какие еще могут быть улучшения?
 
 №1 метод последовательной верной релаксации
 Хочу, чтобы уравнение первой строки выполнилось
-(X_k+1 = B x_k + c)
-Потом говорим, что теперь удовлетворяем, портя предыдущую
-. . .
-Дошли до эн, вернулись обратно
-На самом деле это метод Зейделя
+(<a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;\begin{equation}&space;X_{k&plus;1}&space;=&space;Bx_{k}&plus;c&space;\end{equation}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\large&space;\begin{equation}&space;X_{k&plus;1}&space;=&space;Bx_{k}&plus;c&space;\end{equation}" title="\large \begin{equation} X_{k+1} = Bx_{k}+c \end{equation}" /></a>)
+Потом говорим, что теперь удовлетворяем, портя предыдущую . . . Дошли до **`n`**, вернулись обратно
 
-Что делать если матрица Б явно не написана?
-Указание на то, что это линейная операция
+На самом деле это метод Зейделя!
 
-Есть вектор x_k+1 - x_k, давайте сделаем x_k+1* = x_k + w(x_k+1 - x_k), где
-0 < w < 2
-Но есть нюанс, что только если вы знаете собственные числа матрицы, то тогда метод будет сходится максимально быстро (бесполезно ирл), потому что собственные числа искать гораздо дольше.
+Что делать если матрица B явно не написана?
+
+- Указание на то, что это линейная операция!
+
+Есть вектор <a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;\begin{equation}&space;x_{k&plus;1}&space;-&space;x_k&space;\end{equation}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\large&space;\begin{equation}&space;x_{k&plus;1}&space;-&space;x_k&space;\end{equation}" title="\large \begin{equation} x_{k+1} - x_k \end{equation}" /></a>, давайте сделаем <a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;\begin{equation}&space;x_{k&plus;1}^{*}&space;=&space;x_k&space;&plus;&space;w(x_{k&plus;1}&space;-&space;x_k)&space;\end{equation}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\large&space;\begin{equation}&space;x_{k&plus;1}^{*}&space;=&space;x_k&space;&plus;&space;w(x_{k&plus;1}&space;-&space;x_k)&space;\end{equation}" title="\large \begin{equation} x_{k+1}^{*} = x_k + w(x_{k+1} - x_k) \end{equation}" /></a>, где
+<a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;\begin{equation}&space;0&space;<&space;w&space;<&space;2&space;\end{equation}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\large&space;\begin{equation}&space;0&space;<&space;w&space;<&space;2&space;\end{equation}" title="\large \begin{equation} 0 < w < 2 \end{equation}" /></a>
+
+Но есть нюанс, что только если вы знаете собственные числа матрицы, то тогда метод будет сходится **максимально быстро** (бесполезно ирл), потому что собственные числа искать **гораздо** дольше.
 
 ### Как улучшить итерационные методы?
 
 Например, посмотреть на несколько шагов назад!
 
-Для положительно определенных хороших матриц идеально подойдет соус Терияки метод сопряженных градиентов
-Он помнит все вектора назад. И на самом деле он не очень итерационный. За эн шагов вы получите гарантированную сходимость
+Для положительно определенных хороших матриц идеально подойдет метод сопряженных градиентов
+
+Он помнит все вектора назад. И на самом деле он не очень итерационный. За **`n`** шагов вы получите гарантированную сходимость
 
 ### Некоторые нюансы
 
@@ -81,18 +83,20 @@ c =  (L + D)^(-1) b
 
 2. В каком-то смысл он не совсем итерационный
 
-3. На z_k нужно умножить один раз
+3. На <a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;\begin{equation}&space;z_k&space;\end{equation}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\large&space;\begin{equation}&space;z_k&space;\end{equation}" title="\large \begin{equation} z_k \end{equation}" /></a> нужно умножить один раз
 
-4. Так же как и для метода Зейделя на 1 итерации одно умножение (самая дорогая операция)
+4. Так же как и для метода Зейделя на 1 итерации одно умножение (**самая дорогая операция**)
 
 ### Несколько слов по поводу сходимости
 
-1. Когда норма матрицы Б больше 1, то точно не сходится
+1. Когда норма матрицы B больше 1, то точно не сходится
 
 2. Накапливается погрешность — обусловленность матрицы (разнопорядковые числа на диагонали)
 
-3. Для измерения обусловленности вводят еще одно число
-Cond(A) Число Тодда = lambda_max / lambda_min
+3. Для измерения обусловленности вводят еще одно число. Число Тодда
+
+    - <a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;\begin{equation}&space;Cond(A)&space;=&space;\frac{\lambda_{max}}{\lambda_{min}}&space;\end{equation}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\large&space;\begin{equation}&space;Cond(A)&space;=&space;\frac{\lambda_{max}}{\lambda_{min}}&space;\end{equation}" title="\large \begin{equation} Cond(A) = \frac{\lambda_{max}}{\lambda_{min}} \end{equation}" /></a>
+
 4. Какое число считать большим — это сложный вопрос
     - Обычно если Тодд > 10k, то уже плохо
 
@@ -104,17 +108,15 @@ Cond(A) Число Тодда = lambda_max / lambda_min
 
 Как? А вот как:
 
-1. Допустим матрица А квадратная неразреженная и смогли построить LU-разложение и научились решать систему L^-1 A (U^-1 y) = L^-1 b
+1. Допустим матрица А квадратная неразреженная и смогли построить LU-разложение и научились решать систему <a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;\begin{equation}&space;L^{-1}&space;A&space;U^{-1}&space;y&space;=&space;L^{-1}&space;b&space;\end{equation}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\large&space;\begin{equation}&space;L^{-1}&space;A&space;U^{-1}&space;y&space;=&space;L^{-1}&space;b&space;\end{equation}" title="\large \begin{equation} L^{-1} A U^{-1} y = L^{-1} b \end{equation}" /></a>
 
 2. Все итерационные методы сойдутся за 1 операцию
 
 3. А где собака-то зарыта? А нафига козе баян, если уже все сделали
 
-4. Как можно брать LU? Странно, но возьмем прям L U из A = L + D + U
+4. Как можно брать LU? Странно, но возьмем прям L U из <a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;\begin{equation}&space;A&space;=&space;L&space;&plus;&space;D&space;&plus;&space;U&space;\end{equation}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\large&space;\begin{equation}&space;A&space;=&space;L&space;&plus;&space;D&space;&plus;&space;U&space;\end{equation}" title="\large \begin{equation} A = L + D + U \end{equation}" /></a>
 
 Есть еще метод: неполное разложение Холецкого
 Заводим L U с этим же портретом с формулами обычного разложения Холецкого.
 
 Курите мануалы!
-
-В последнее время используют итерационные методы + ???
