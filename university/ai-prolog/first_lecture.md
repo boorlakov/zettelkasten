@@ -1,6 +1,6 @@
 # Лекция №1
 
-[<- Назад (Введение в искусственный интеллект и логическое программирование)](https://github.com/boorlakov/zettelkasten/tree/main/university/ai-prolog)
+[<- Назад (Введение в искусственный интеллект и логическое программирование)](https://github.com/boorlakov/zettelkasten/tree/main/university/ai-prolog/README.md)
 
 Не исчерпывается нейронками.
 
