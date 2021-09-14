@@ -7,3 +7,4 @@
 - [Методы построения и анализа алгоритмов](https://github.com/boorlakov/zettelkasten/blob/main/university/methods%20analysis%20algos/README.md)
 - [Численные методы](https://github.com/boorlakov/zettelkasten/blob/main/university/nummethods/README.md)
 - [Языки программирования и методы трансляции](https://github.com/boorlakov/zettelkasten/blob/main/university/proglangs/README.md)
+- [Введение в искусственный интеллект и логическое программирование](https://github.com/boorlakov/zettelkasten/blob/main/university/ai-prolog/README.md)
