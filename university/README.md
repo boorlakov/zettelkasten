@@ -14,4 +14,4 @@
 
 - [Введение в искусственный интеллект и логическое программирование](https://github.com/boorlakov/zettelkasten/blob/main/university/ai-prolog/README.md)
 
-- [Криптография и теория информации]()
+- [Криптография и теория информации](https://github.com/boorlakov/zettelkasten/blob/main/university/cryptography%20%26%20informatics/README.md)
