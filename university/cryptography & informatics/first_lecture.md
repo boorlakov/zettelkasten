@@ -1,4 +1,6 @@
-# Основные понятия теории информации. Лекция №1
+# Лекция №1
+
+[<- Назад (Основные понятия теории информации)](https://github.com/boorlakov/zettelkasten/blob/main/university/cryptography%20%26%20informatics/README.md)
 
 ## Структура курса
 
