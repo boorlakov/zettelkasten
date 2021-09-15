@@ -22,17 +22,17 @@
 
   - Python
 
-    - C#
+  - C#
   
-    - Ruby
+  - Ruby
 
-    - Java
+  - Java
 
-    - JavaScript
+  - JavaScript
 
-    - Go
+  - Go
 
-    - Haskell
+  - Haskell
 
 - Среднего уровня (могут и в низкоур. и в выс.):
 
