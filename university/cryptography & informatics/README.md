@@ -4,7 +4,7 @@
 
 ## Конспекты лекций
 
-1. [Лекция №1]()
+1. [Лекция №1](https://github.com/boorlakov/zettelkasten/blob/main/university/cryptography%20%26%20informatics/first_lecture.md)
 
 ## Структура курса
 
