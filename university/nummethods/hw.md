@@ -2,7 +2,7 @@
 
 [<- Назад (университет)](https://github.com/boorlakov/zettelkasten/blob/main/university/README.md)
 
-## Лабораторные / практическая
+## Лабораторные / практические
 
 1. [Лабораторная-1](https://github.com/boorlakov/chm-1)
 2. [Лабораторная-2](https://github.com/poleley/chm-2)
