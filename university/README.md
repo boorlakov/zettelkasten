@@ -34,5 +34,7 @@
 
 ### 3 курс
 
+- [Численные методы](https://github.com/boorlakov/zettelkasten/blob/main/university/nummethods/hw.md)
+
 ### 4 курс
 
